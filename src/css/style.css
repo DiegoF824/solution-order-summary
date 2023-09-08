@@ -1,0 +1,93 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background: url(../images/pattern-background-desktop.svg) no-repeat var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffff;
+    max-width: 28.2rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.container .hero-image {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.container .order-summary {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .order-summary h1 {
+    color: var(--title-color);
+    margin-bottom: 20px;
+}
+
+.container .order-summary .plan {
+    display: flex;
+    background-color: var(--plan-background);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+.container .plan .music-icon {
+    margin-right: 15px;
+}
+
+.container .order-summary .plan .change-plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.container .order-summary .plan .change-plan .annual-plan {
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.container .order-summary .plan .change-plan a {
+    color: hsl(245, 75%, 52%);
+    font-size: 0.875rem;
+    text-decoration: underline;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.container .order-summary .plan .change-plan a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.5);
+}
+
+.container .order-summary .payment {
+    background-color: var(--payment-color);
+    padding: 15px;
+    color: #ffff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.container .order-summary .payment:hover {
+    background-color: hsla(245, 75%, 52%, 0.5);
+}
+
+.container .order-summary .cancel {
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.container .order-summary .cancel:hover {
+    color: var(--title-color);
+}

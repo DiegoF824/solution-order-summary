@@ -1,0 +1,10 @@
+:root {
+    --background-color: hsl(225, 100%, 94%);
+    --payment-color: hsl(245, 75%, 52%);
+    --plan-background: hsl(225, 100%, 98%);
+}
+
+:root {
+    --font-color: hsl(224, 23%, 55%);
+    --title-color: hsl(223, 47%, 23%);
+}

@@ -1,0 +1,12 @@
+@media (max-width: 425px) {
+    body {
+        background: url(../images/pattern-background-mobile.svg) no-repeat var(--background-color);
+        padding: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container .order-summary {
+        padding: 30px 25px;
+    }
+}
